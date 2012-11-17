@@ -1,0 +1,23 @@
+{
+  "name": "winston-amazon-ses",
+  "description": "A mail transport for winston using Amazon Simple Email Service (SES)",
+  "version": "0.1.0",
+  "author": "Juan Pablo Garcia Dalolla <juanpablogarcia@gmail.com> (http://jpgarcia.com.ar)",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/jpgarcia/winston-amazon-ses.git"
+  },
+  "keywords": ["logging", "sysadmin", "tools", "winston", "email", "ses"],
+  "dependencies": {
+    "amazon-ses": "0.0.3",
+    "underscore": "1.4.2"
+  },
+  "devDependencies": {
+    "winston": "0.6.2",
+    "sinon": "1.5.0",
+    "vows": "0.7.0"
+  },
+  "main": "./lib/winston-amazon-ses",
+  "scripts": { "test": "vows test/*-test.js --spec" },
+  "engines": { "node": ">= 0.6.0" }
+}

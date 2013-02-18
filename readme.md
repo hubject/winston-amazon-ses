@@ -1,4 +1,4 @@
-# winston-amazon-ses [![Build Status](https://secure.travis-ci.org/jpgarcia/winston-amazon-ses.png)](http://travis-ci.org/jpgarcia/winston-amazon-ses)
+# winston-amazon-ses [![Build Status](https://secure.travis-ci.org/jpgarcia/winston-amazon-ses.png)](http://travis-ci.org/jpgarcia/winston-amazon-ses) [ ![Codeship Status for jpgarcia/winston-amazon-ses](https://www.codeship.io/projects/7d813b30-5b8b-0130-6260-1231380e960a/status?branch=master)](https://www.codeship.io/projects/1546)
 
 A email transport for [winston][0] using Amazon Simple Email Service (SES) inspired in [winston-mail](https://github.com/wavded/winston-mail).
 

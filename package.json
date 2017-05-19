@@ -7,17 +7,30 @@
     "type": "git",
     "url": "http://github.com/jpgarcia/winston-amazon-ses.git"
   },
-  "keywords": ["logging", "sysadmin", "tools", "winston", "email", "ses"],
+  "keywords": [
+    "logging",
+    "sysadmin",
+    "tools",
+    "winston",
+    "email",
+    "ses"
+  ],
   "dependencies": {
     "amazon-ses": "0.0.3",
     "underscore": "1.4.2"
   },
   "devDependencies": {
-    "winston": "0.6.2",
+    "@types/winston": "^2.3.1",
     "sinon": "1.5.0",
-    "vows": "0.7.0"
+    "vows": "0.7.0",
+    "winston": "0.6.2"
   },
   "main": "./lib/winston-amazon-ses",
-  "scripts": { "test": "vows test/*-test.js --spec" },
-  "engines": { "node": ">= 0.6.0" }
+  "types": "./lib/winston-amazon-ses.d.ts",
+  "scripts": {
+    "test": "vows test/*-test.js --spec"
+  },
+  "engines": {
+    "node": ">= 0.6.0"
+  }
 }

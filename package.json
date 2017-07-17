@@ -1,5 +1,5 @@
 {
-  "name": "winston-amazon-ses",
+  "name": "@hubject/winston-amazon-ses",
   "description": "A mail transport for winston using Amazon Simple Email Service (SES)",
   "version": "0.1.4",
   "author": "Juan Pablo Garcia Dalolla <juanpablogarcia@gmail.com> (http://jpgarcia.com.ar)",

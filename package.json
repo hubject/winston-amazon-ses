@@ -5,7 +5,7 @@
   "author": "Juan Pablo Garcia Dalolla <juanpablogarcia@gmail.com> (http://jpgarcia.com.ar)",
   "repository": {
     "type": "git",
-    "url": "http://github.com/jpgarcia/winston-amazon-ses.git"
+    "url": "http://github.com/hubject/winston-amazon-ses.git"
   },
   "keywords": [
     "logging",
